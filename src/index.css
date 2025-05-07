@@ -1,0 +1,360 @@
+/* pic */
+
+.food {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/previews/036/804/355/non_2x/ai-generated-assorted-indian-food-on-dark-wooden-background-free-photo.jpg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: cover;
+}
+
+.food h3,
+h4 {
+  position: absolute;
+  font-family: sans-serif;
+  text-shadow: 1px 2px 5px rgb(119, 21, 21);
+  left: 35%;
+  top: 50%;
+  background-color: #5c595936;
+  padding: 10px;
+  border-radius: 17px;
+  
+
+  /* animation-name: topic;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-timing-function: ease; */
+}
+
+.food h4 {
+  margin-top: 5%;
+  margin-left: -80px;
+}
+
+/* @keyframes topic
+{
+  from
+  {
+    color: white;
+    left: 10px;
+  }
+  to
+  {
+    color: yellow;
+    right: 10px;
+  }
+} */
+
+
+.countdown-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  background-color: rgba(255, 0, 0, 0.555);
+}
+
+.time-circle {
+  text-align: center;
+  color: #333;
+}
+
+.circle {
+  background: #fff;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section3 p {
+  width: 50%;
+  margin-left: 27%;
+}
+
+.icons
+{
+  margin-left: 19%;
+}
+
+
+
+.spoon {
+  background-color: #f6d75a;
+  color: white;
+  width: 220px;
+  /* height: 150px; */
+  border-radius: 30px;
+  font-size: 80px;
+  margin-right: 10%;
+}
+
+.music {
+  background-color: #ff9d29;
+  color: white;
+  width: 220px;
+  /* height: 150px; */
+  border-radius: 30px;
+  font-size: 80px;
+  margin-right: 10%;
+  
+}
+
+.heart {
+  background-color: #c6532e;
+  color: white;
+  width: 220px;
+  /* height: 150px; */
+  border-radius: 30px;
+  font-size: 80px;
+  margin-right: 10%;
+}
+
+.hearts
+{
+  margin-left: 70px;
+}
+
+.heartcont
+{
+  margin-left: 24%;
+  width: 150px;
+}
+
+.spoon:hover
+{
+  background-color: white;
+  color: #f6d75a;
+  border: 2px solid #f6d75a ;
+}
+
+
+.music:hover
+{
+  background-color: white;
+  color: #ff9d29;
+  border: 2px solid #ff9d29 ;
+}
+
+
+.heart:hover
+{
+  background-color: white;
+  color: #c6532e;
+  border: 2px solid #c6532e ;
+}
+
+.whatsonbg
+{
+ 
+  background-color: rgba(255, 0, 0, 0.555);
+  padding: 70px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.card:hover
+{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+.starter
+{
+  margin-left: 13%;
+}
+
+.snacks
+{
+  margin-left: 13%;
+}
+
+
+.card-section {
+  padding: 20px;
+  background-color: #f9f5f5;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 20px;
+  padding: 13px;
+}
+
+.grids-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 cards per row */
+  gap: 20px;
+  padding: 20px;
+  width: 70vw;
+  margin-left: 14%;
+}
+
+
+
+.card {
+  min-width: 250px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+ 
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+.contact
+{
+  background-color: rgba(255, 0, 0, 0.555);
+}
+
+
+.card-section {
+  padding: 20px;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+/* Grid for 4 cards per row */
+/* .card-grid-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+} */
+
+input:focus, 
+textarea:focus, 
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important; /* Optional: keep default border */
+}
+
+.enquiry
+{
+  background-color:rgba(241, 239, 239, 0.619);
+ 
+}
+
+
+
+
+
+
+
+@media (max-width:576px) {
+  
+  .food h3,
+  h4 {
+    margin-right: 110px;
+
+  }
+
+  .food h4 {
+    margin-top: 40%;
+    margin-left: -65px;
+    width: 250px;
+  }
+
+  .section3 h3
+  {
+     margin-right: 30px;
+  }
+
+  .section3 p 
+  {
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .circle
+  {
+    width: 78px;
+  }
+
+  .icons
+  {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+  }
+
+  .spoon
+  {
+    margin-left: 20px;
+   
+  }
+
+  .whatsonbg
+  {
+    padding-left: 60px;
+  }
+
+  .whatson
+  {
+    margin-left: 10px;
+  }
+
+  .grid-container
+  {
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+   
+    
+  }
+
+  .grids-container
+  {
+    grid-template-columns: 1fr;
+    margin-left: 27px;
+    
+  }
+
+  .card
+  {
+    
+    width: 200px;
+  }
+
+  
+
+ 
+
+}

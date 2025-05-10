@@ -7,9 +7,10 @@ import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import poster1 from '../assets/poster1.png'
+import poster2 from '../assets/poster2.png'
 
 function Foodevent() {
-  const targetDate = new Date("2025-05-25T01:00:00").getTime();
+  const targetDate = new Date("2025-06-01T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState(getTimeRemaining(targetDate));
 
@@ -37,7 +38,7 @@ function Foodevent() {
 
       {
         image: "https://5.imimg.com/data5/SELLER/Default/2025/2/487028546/AQ/YY/TY/71197940/roasted-masala-peanuts-500x500.jpeg",
-        name: "Peanut Masala"
+        name: " Curd Peanut Masala"
       }
     ]
   )
@@ -48,72 +49,12 @@ function Foodevent() {
     [
       {
         img: "https://static.vecteezy.com/system/resources/thumbnails/040/703/949/small/ai-generated-royal-feast-master-the-art-of-chicken-biryani-at-home-generative-ai-photo.jpg",
-        name: " Traditional Muslim Chicken Briyani"
+        name: " Traditional Muslim Chicken Biriyani (Wooden Stove)"
       },
 
       {
         img: "https://static.vecteezy.com/system/resources/thumbnails/040/985/899/small/ai-generated-indian-biryani-rice-professional-advertising-foodgraphy-photo.jpg",
-        name: " Traditional Muslim Mutton Briyani"
-      },
-
-      {
-        img: "https://png.pngtree.com/png-vector/20240726/ourmid/pngtree-freshly-made-traditional-chapati-with-butter-png-image_13236221.png",
-        name: "Butter Chappathi"
-      },
-
-      {
-        img: "https://assets.tendercuts.in/product/M/R/bb8d54f6-5987-4055-b992-19cf8c9fb14c.webp",
-        name: "Chicken Chukka"
-      },
-
-      {
-        img: "https://ymcacf.org/wp-content/uploads/2021/08/iStock-155420039-800x533-1.png",
-        name: "Boiled Egg"
-      },
-
-      {
-        img: "https://www.thevellorekitchen.in/wp-content/uploads/2023/01/KAADAI-65.jpg",
-        name: "Kaadai Roast"
-      },
-
-      {
-        img: "https://maayeka.com/wp-content/uploads/2013/10/soft-idli-recipe.jpg",
-        name: "Idli (2)"
-      },
-
-      {
-        img: "https://media.istockphoto.com/id/1408056802/photo/fish-sticks-on-a-plate.jpg?s=612x612&w=0&k=20&c=2Caduc4loiVTpBcSPzEnk-K1vxPcSqhV9LT0AFW6c9E=",
-        name: "Fish Finger"
-      },
-
-      {
-        img: "https://i.ytimg.com/vi/Wkzq45N8rtU/maxresdefault.jpg",
-        name: "Prawn 65"
-      },
-
-      {
-        img: "https://images.getrecipekit.com/20230113172320-whiterice.jpg?aspect_ratio=4:3&quality=90&",
-        name: "White Rice"
-      },
-
-      {
-        img: "https://www.ceepeespices.in/wp-content/uploads/2021/12/recipe-Mixed-Veg-Raita.jpg",
-        name: "Mixed Raitha"
-      },
-
-      {
-        img: "https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail-300x300.jpg",
-        name: "Naatukkozhi Chettinadu"
-      },
-
-      {
-        img: "https://www.jinooskitchen.com/wp-content/uploads/2018/12/mutton-dalcha-jinooskitchen-3-500x375.jpg",
-        name: "Brinjal Thalicha"
-      },
-
-      {
-        img: "https://www.kannammacooks.com/wp-content/uploads/2015/12/milagu-rasam-recipe.jpg",
-        name: "Milagu Rasam"
+        name: " Traditional Muslim Mutton Biriyani (Wooden Stove)"
       },
 
       {
@@ -122,9 +63,90 @@ function Foodevent() {
       },
 
       {
-        img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Kebab.jpg",
+        img: "https://www.jinooskitchen.com/wp-content/uploads/2018/12/mutton-dalcha-jinooskitchen-3-500x375.jpg",
+        name: "Brinjal Thalicha"
+      },
+
+      {
+        img: "https://www.ceepeespices.in/wp-content/uploads/2021/12/recipe-Mixed-Veg-Raita.jpg",
+        name: "Mixed Raitha"
+      },
+
+      {
+        img: "https://png.pngtree.com/png-vector/20240726/ourmid/pngtree-freshly-made-traditional-chapati-with-butter-png-image_13236221.png",
+        name: "Butter Chappathi"
+      },
+
+      {
+        img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/gobi-masala-cauliflower-masala.webp",
+        name: "Gopi Gravy"
+      },
+
+      {
+        img: "https://media.istockphoto.com/id/1205482203/photo/kerala-parotta-popularly-known-as-paratha-or-porotta-is-a-delicacy-from-the-state-of-kerala.jpg?s=612x612&w=0&k=20&c=Yv6GQkzNErLM7NUA4q6S27FnFMT7yuC6RSCij5e2m0Y=",
+        name: "Parotta"
+      },
+
+
+
+      {
+        img: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/9-feb/Kumbakonam_Kadappa_Recipe_South_Indian_Style_Lentil_and_Potato_Stew-1_400.jpg",
+        name: "Kadappa"
+      },
+
+      {
+        img: "https://www.thevellorekitchen.in/wp-content/uploads/2023/01/KAADAI-65.jpg",
+        name: "Kaadai Roast"
+      },
+      {
+        img: "https://ymcacf.org/wp-content/uploads/2021/08/iStock-155420039-800x533-1.png",
+        name: "Boiled Egg"
+      },
+
+      {
+        img: "https://assets.tendercuts.in/product/M/R/bb8d54f6-5987-4055-b992-19cf8c9fb14c.webp",
+        name: "Chicken Chukka"
+      },
+
+      {
+        img: "https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured.jpg",
+        name: "White Pastha"
+      },
+
+      {
+        img: "https://www.vegrecipesofindia.com/wp-content/uploads/2021/08/mushroom-noodles-3.jpg",
+        name: "Mushroom Noodles"
+      },
+
+      {
+        img: "https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail-300x300.jpg",
+        name: "Naatukkozhi Chettinadu"
+      },
+
+      {
+        img: "https://i.ytimg.com/vi/Wkzq45N8rtU/maxresdefault.jpg",
+        name: "Prawn 65"
+      },
+
+      {
+        img: "https://culinaryginger.com/wp-content/uploads/Grilled-Tandoori-Chicken-Kebabs-4-.jpg",
         name: "Chicken Kebab"
-      }
+      },
+
+      {
+        img: "https://media.istockphoto.com/id/1408056802/photo/fish-sticks-on-a-plate.jpg?s=612x612&w=0&k=20&c=2Caduc4loiVTpBcSPzEnk-K1vxPcSqhV9LT0AFW6c9E=",
+        name: "Fish Finger"
+      },
+
+      {
+        img: "https://images.getrecipekit.com/20230113172320-whiterice.jpg?aspect_ratio=4:3&quality=90&",
+        name: "White Rice"
+      },
+
+      {
+        img: "https://www.kannammacooks.com/wp-content/uploads/2015/12/milagu-rasam-recipe.jpg",
+        name: "Milagu Rasam"
+      },
 
     ]
   )
@@ -150,18 +172,15 @@ function Foodevent() {
 
       {
         img: "https://www.crunchykitchen.com/wp-content/uploads/2020/06/ash-gourd-halwa-re.jpg",
-        name: "Kasi Payasam"
+        name: "Kasi Halwa"
       },
 
       {
         img: "https://www.spiceupthecurry.com/wp-content/uploads/2020/08/gulab-jamun-recipe-2.jpg",
         name: "Gulabjamun"
-      },
+      }
 
-      {
-        img: "https://aartimadan.com/wp-content/uploads/2019/01/Badam-Milk-4-1.jpg",
-        name: "Hot Badham"
-      },
+
 
     ]
   )
@@ -172,7 +191,7 @@ function Foodevent() {
     [
       {
         img: "https://bittmanproject.com/wp-content/uploads/GettyImages-1060532718.jpg",
-        name: "Pop Corn (Butter, Sweet)"
+        name: "PopCorn (Butter, Sweet)"
       },
 
       {
@@ -181,10 +200,14 @@ function Foodevent() {
       },
 
       {
+        img: "https://cheetah.cherishx.com/uploads/1721369361_large.jpg",
+        name: "Chocolate Fountain"
+      },
+
+      {
         img: "https://content.jdmagicbox.com/v2/comp/bangalore/b7/080pxx80.xx80.190314072655.x3b7/catalogue/sri-ram-beeda-stall-peenya-bangalore-paan-shops-poo74xfz1t.jpg",
         name: "Beeda"
       }
-
 
     ]
   )
@@ -194,19 +217,29 @@ function Foodevent() {
   const [dessert, setdessert] = useState(
     [
       {
-        img: "https://thebigmansworld.com/wp-content/uploads/2024/06/protein-milkshake-recipe.jpg",
+        img: "https://media.istockphoto.com/id/1311373994/photo/milk-shakes-in-plastic-cups-and-straws-on-a-dark-wooden-table.jpg?s=612x612&w=0&k=20&c=Y20r2W4YwMifHwVxQA8pwx3HTaBnHoBhZmDtSuLGHww=",
         name: "Milk Shake (6 Flavours)"
       },
 
       {
-        img: "https://im.whatshot.in/img/2019/Apr/shutterstock-1037873353-cropped-1555506408.jpg?w=720&h=490&cc=1&wp=1",
+        img: "https://hips.hearstapps.com/hmg-prod/images/del069924-homemadesoftserve-web-249-jd-index-6670a2cd08f5d.jpg?crop=0.8886845935800198xw:1xh;center,top&resize=1200:",
         name: "Softy Cone"
       },
 
       {
         img: "https://www.mashed.com/img/gallery/dairy-free-ice-creams-ranked-worst-to-best/intro-1614869901.jpg",
         name: "Hard Ice Cream (6 Flavours)"
-      }
+      },
+
+      {
+        img: "https://bakingamoment.com/wp-content/uploads/2023/07/IMG_2051-ice-cream-cake.jpg",
+        name: "Fresh Ice Cream Cake"
+      },
+
+      {
+        img: "https://onelittleproject.com/wp-content/uploads/2015/05/DSC_0481.jpg",
+        name: "Dessert skewers kabab (Mashmellow, Banana, Pineapple, Grapes, Brownie)"
+      },
     ]
   )
 
@@ -236,39 +269,38 @@ function Foodevent() {
         </div>
       </nav> */}
 
-<nav className="navbar navbar-light bg-white">
-  <div className="container-fluid px-3">
-    <div className="row w-100 align-items-center">
+      <nav className="navbar navbar-light bg-white">
+        <div className="container-fluid px-3">
+          <div className="row w-100 align-items-center">
 
-      <div className="col-12 col-md-3 text-center text-md-start mb-2 mb-md-0 logo">
-        <a className="navbar-brand" href="#">
-          <img src={food} alt="Logo" width="160" height="120" className="d-inline-block align-text-top" />
-        </a>
-      </div>
+            <div className="col-12 col-md-3 text-center text-md-start mb-2 mb-md-0 logo">
+              <a className="navbar-brand" href="#">
+                <img src={food} alt="Logo" width="160" height="120" className="d-inline-block align-text-top" />
+              </a>
+            </div>
 
-      <div className="col-12 col-md-6 text-center mb-2 mb-md-0 title">
-        <h3 className="text-danger mb-0">Maa's Magic Food Carnival</h3>
-      </div>
-     
-      <div className="col-12 col-md-3 text-center text-md-end register">
-        <a href="https://forms.gle/VJQ1rsn9WRPWfKvJ9" target="_blank" rel="noopener noreferrer">
-          <button type="button" className="btn btn-danger">Register</button>
-        </a>
-      </div>
+            <div className="col-12 col-md-6 text-center mb-2 mb-md-0 title">
+              <h3 className="text-danger mb-0">Maa's Magic Food Carnival</h3>
+            </div>
 
-    </div>
-  </div>
-</nav>
+            <div className="col-12 col-md-3 text-center text-md-end register">
+              <a href="https://forms.gle/VJQ1rsn9WRPWfKvJ9" target="_blank" rel="noopener noreferrer">
+                <button type="button" className="btn btn-danger">Register</button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </nav>
 
 
       {/* pic */}
 
       <div className='food'>
         <h3 className='text-danger text-center fw-bold fs-1'>A Feast of Flavors & Fun Awaits You! </h3>
-        <h4 className='text-white text-center'>25-05-2025 | Timings: 1:00 P.M to 6:00 P.M | Santho Lawns </h4>
+        <h4 className='text-white text-center'>01-06-2025 | Timings: 1:00 P.M to 6:00 P.M | Santho Lawns </h4>
 
       </div>
-
 
       {/* countdown */}
 
@@ -283,21 +315,33 @@ function Foodevent() {
       {/* healthiest event */}
 
 
-      <div className='section3 mt-5 text-center'>
+      {/* <div className='section3 mt-5 text-center'>
         <h3 className='ms-5'>The Healthiest Event!</h3>
         <p className='text-secondary mt-3' style={{ textAlign: "justify" }}>These festivals have always been a means of uniting communities through celebrations of harvests and giving thanks for a plentiful growing season. Some food festivals are also harvest festivals.</p>
+      </div> */}
+
+      <div className="container text-center mt-5">
+        <h3 className='ms-0'>The Healthiest Event!</h3>
+        <div className="row justify-content-center mt-4">
+          <div className="col-12 col-md-10 col-lg-8">
+            <p className="text-secondary" style={{ textAlign: "justify" }}>
+              These festivals have always been a means of uniting communities through celebrations of harvests and giving thanks for a plentiful growing season. Some food festivals are also harvest festivals.
+            </p>
+          </div>
+        </div>
+
       </div>
 
 
       <div className='icons d-flex  mt-5'>
-        <div className='spoon text-center'>
+        <div className='spoon text-center '>
           <ImSpoonKnife className='ms-2' />
           <hr />
           <h5 className=' mt-4 fw-bold w-75 ms-4' >EAT DELICIOUS FOOD</h5>
         </div>
 
-        <div className='music text-center ms-4'>
-          <FaMusic className='ms-1' />
+        <div className='music text-center ms-4 '>
+          <FaMusic className='ms-1 ' />
           <hr />
           <h5 className=' mt-4 fw-bold w-75 ms-4'>LISTEN TO LIVE MUSIC</h5>
         </div>
@@ -410,19 +454,31 @@ function Foodevent() {
               </h6>
             </div>
           </div>
+
+          <div className="card ms-3" style={{ width: '15rem' }}>
+            <img src="https://majesticbookclub.in/cdn/shop/articles/WhatsApp_Image_2025-02-25_at_11.06.45.jpg?v=1740461892" className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h6 className="card-text text-center">
+                Physical Games for Kids
+              </h6>
+            </div>
+          </div>
+
         </div>
       </div>
 
+
+
       {/* menu  */}
 
-      <div className='menu text-center '>
+      <div className='menu text-center'>
 
 
         <div className="card-section">
           <h2 className='mt-5 '>Food Menus</h2>
 
           <h3 className="section-heading mt-5">Starter's</h3>
-          <div className="grids-container starter">
+          <div className="grids-container starter mt-4">
             {starter.map((d, i) => (
               <div className="card" key={d.id}>
                 <img src={d.image} alt="event" className="card-img" />
@@ -435,12 +491,11 @@ function Foodevent() {
         </div>
 
 
-
         {/* main */}
 
         <div className="card-section">
-          <h3 className="section-heading mt-4">Main Course's</h3>
-          <div className="grid-container maincourse">
+          <h3 className="section-heading mt-5">Main Course's</h3>
+          <div className="grid-container maincourse mt-4">
             {main.map((d, i) => (
               <div className="card" key={d.id}>
                 <img src={d.img} alt="event" className="card-img" />
@@ -455,24 +510,54 @@ function Foodevent() {
         {/* sweet */}
 
         <div className="card-section">
-          <h3 className="section-heading mt-4">Sweet's</h3>
-          <div className="grids-container sweets">
+          <h3 className="section-heading mt-5">Sweet's</h3>
+          {/* <div className="grids-container sweets  "> */}
+          <div className="row justify-content-center mt-4 ">
             {sweet.map((d, i) => (
-              <div className="card" key={d.id}>
-                <img src={d.img} alt="event" className="card-img" />
-                <div className="card-body">
-                  <p className="card-text">{d.name}</p>
+              <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" key={d.id}>
+                <div className="card sweet">
+                  <img src={d.img} alt="event" className="card-img" />
+                  <div className="card-body">
+                    <p className="card-text">{d.name}</p>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
+
+
+
+
+
+
+        {/* <div className="card-section ">
+  <h3 className="section-heading mt-4 text-center">Sweet's</h3>
+  <div className="row justify-content-center mt-4">
+    {sweet.map((d, i) => (
+      <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" key={d.id}>
+        <div className="card" style={{ width: '100%', maxWidth: '260px' }}>
+          <img src={d.img} alt={d.name} className="card-img-top" />
+          <div className="card-body text-center">
+            <p className="card-text ">{d.name}</p>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div> */}
+
+
+
+
+
+
         {/* snack */}
 
         <div className="card-section">
           <h3 className="section-heading ">Snack's</h3>
-          <div className="grids-container snacks ">
+          <div className="grid-container mt-4 ">
             {snacks.map((d, i) => (
               <div className="card" key={d.id}>
                 <img src={d.img} alt="event" className="card-img" />
@@ -486,9 +571,9 @@ function Foodevent() {
 
         {/* dessert */}
 
-        <div className="card-section">
+        {/* <div className="card-section">
           <h3 className="section-heading ">Dessert's</h3>
-          <div className="grids-container snacks ">
+          <div className="grid-container">
             {dessert.map((d, i) => (
               <div className="card" key={d.id}>
                 <img src={d.img} alt="event" className="card-img" />
@@ -498,18 +583,96 @@ function Foodevent() {
               </div>
             ))}
           </div>
+        </div> */}
+
+        <div className="card-section">
+          <h3 className="section-heading mt-5">Dessert's</h3>
+          {/* <div className="grids-container sweets  "> */}
+          <div className="row justify-content-center mt-5 ">
+            {dessert.map((d, i) => (
+              <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" key={d.id}>
+                <div className="card sweet">
+                  <img src={d.img} alt="event" className="card-img" />
+                  <div className="card-body">
+                    <p className="card-text">{d.name}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+
+        {/* bevarages */}
+
+
+        {/* <div className="card" style={{width: "15rem",}}>
+  <img src="https://uglyducklingbakery.com/wp-content/uploads/2023/07/blue-mojito.jpg" className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <p className="card-text">Some quick example text to build</p>
+  </div>
+</div> */}
+
+
+        {/* <div className="card-section">
+          <h3 className="section-heading ">Beverage's</h3>
+ <div className="d-flex justify-content-center align-items-center mt-5 bg-light">
+
+      <div className="card shadow beverage" style={{ width: '140px', borderRadius: '12px' }}>
+        <img
+          src="https://uglyducklingbakery.com/wp-content/uploads/2023/07/blue-mojito.jpg"
+          className="card-img-top"
+          alt="Softy Cone"
+          style={{ height: '160px', borderRadius: '12px' }}
+        />
+        <div className="card-body text-center">
+          <p className="card-text   mb-0">Softy Cone</p>
         </div>
       </div>
+    </div>
+      </div> */}
+
+
+        <div className="card-section">
+          <h3 className="section-heading mt-5">Beverage</h3>
+          {/* <div className="grids-container sweets  "> */}
+          <div className="row justify-content-center mt-4 ">
+            {/* {sweet.map((d, i) => ( */}
+            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" >
+              <div className="card sweet">
+                <img src="https://mybartender.com/wp-content/uploads/2024/07/Blue-Mojito.webp" alt="event" className="card-img" />
+                <div className="card-body">
+                  <p className="card-text">Mojito Blue Curacoa</p>
+                </div>
+              </div>
+            </div>
+            {/* ))} */}
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
 
 
 
       {/* poster */}
 
       <div className="container-fluid enquiry">
-      <h3 className='text-center mt-5 pt-3'> Event Poster</h3>
+        <h3 className='text-center mt-5 pt-3'> Event Poster</h3>
         <div className="row mt-5 justify-content-center">
           <div className="col-12 col-md-4 mb-3 d-flex justify-content-center">
-            <img src={poster1} className="img-fluid" width={350} alt="..." style={{boxShadow:"5px 5px 5px rgba(97, 85, 85, 0.45)"}} />
+            <img src={poster1} className="img-fluid" width={350} alt="..." style={{ boxShadow: "5px 5px 5px rgba(97, 85, 85, 0.45)" }} />
+          </div>
+
+          <div className="col-12 col-md-4 mb-3 d-flex justify-content-center">
+            <img src={poster2} className="img-fluid" width={350} alt="..." style={{ boxShadow: "5px 5px 5px rgba(97, 85, 85, 0.45)" }} />
           </div>
         </div>
 
@@ -546,7 +709,7 @@ function Foodevent() {
       {/* enquiry */}
 
 
-      <div className="container-fluid my-5 enquiry">
+      {/* <div className="container-fluid my-5 enquiry">
         <h3 className="text-center mb-4 pt-3">Stay Connected With Us</h3>
 
         <div className="row justify-content-center">
@@ -573,7 +736,7 @@ function Foodevent() {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* faq */}

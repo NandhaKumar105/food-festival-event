@@ -319,7 +319,8 @@ select:focus {
     gap: 20px;
   }
 
-  .spoon {
+  .spoon 
+  {
     margin-right: 60px;
 
   }

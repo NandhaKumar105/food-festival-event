@@ -21,8 +21,7 @@ function Foodevent() {
     return () => clearInterval(interval);
   }, []);
 
-
-  // starter 
+  // starters 
 
   const [starter, setstarter] = useState(
     [
